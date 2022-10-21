@@ -87,3 +87,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react e
     }
 }
 ```
+</br></br>
+
+## 🔥 License 추가하기
+* [깃허브 라이센스 추가하기](https://jaeryo2357.tistory.com/8)글 등을 참고하여 리모트에서 깃허브에서 제공하는 라이센스를 간편하게 추가한 뒤 `git pull --rebase origin main`으로 로컬로 땡겨오기
