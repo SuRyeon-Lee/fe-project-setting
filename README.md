@@ -87,7 +87,18 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react e
     }
 }
 ```
+
 </br></br>
 
 ## 🔥 License 추가하기
 * [깃허브 라이센스 추가하기](https://jaeryo2357.tistory.com/8)글 등을 참고하여 리모트에서 깃허브에서 제공하는 라이센스를 간편하게 추가한 뒤 `git pull --rebase origin main`으로 로컬로 땡겨오기
+
+</br></br>
+
+## 🔥 Github Project 칸반을 만들고, 이슈와 마일스톤을 연결하기
+깃허브 페이지에서 테스크를 보기 쉽게 정리한다.
+
+</br></br>
+
+## 🔥 Git flow에따라 브랜치 분기하기
+Git flow를 단순화한 Coz’ Git flow로 실습해본다.
