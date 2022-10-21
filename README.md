@@ -40,16 +40,13 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react e
 |eslint-plugin-jsx-a11y|JSX 내의 접근성 문제에 대해 즉각적인 AST 린팅 피드백을 제공. 많은 IDE가 코드 분석과 소스 코드 창에 이런 결과를 통합할 수 있도록 해줌.[링크](https://ko.reactjs.org/docs/accessibility.html#eslint-plugin-jsx-a11y)|
 |eslint-plugin-react|리액트와 관련된 룰을 정의한 패키지. 리액트에서 eslint 쓸때 필요|
 |eslint-plugin-react-hooks|리액트 훅과 관련된 룰을 강제하는 패키지. 리액훅 안전하게 쓰려면 필요[링크](https://reactjs.org/docs/hooks-rules.html#eslint-plugin)|
-|eslint-plugin-prettier|eslint에서 prettier와 충돌할 수 있는 rule을 꺼버림 ✅
-코드 오류를 잡는데는 eslint, 코드 포맷팅에는 prettier를 사용하는 방법이다.|
-|eslint-config-prettier|prettier를 eslint의 rules로 동작하게 함
-포맷팅 문제도 오류로 출력되어서 오류 메시지가 지나치게 많아지며 느리다.=>[권장하지 않는 글도 있음](https://yrnana.dev/post/2021-03-21-prettier-eslint)|
+|eslint-plugin-prettier|eslint에서 prettier와 충돌할 수 있는 rule을 꺼버림 ✅ 코드 오류를 잡는데는 eslint, 코드 포맷팅에는 prettier를 사용하는 방법이다.|
+|eslint-config-prettier|prettier를 eslint의 rules로 동작하게 함.포맷팅 문제도 오류로 출력되어서 오류 메시지가 지나치게 많아지며 느리다.=>[권장하지 않는 글도 있음](https://yrnana.dev/post/2021-03-21-prettier-eslint)|
 
 </br>
 
-* .eslint.json 파일설정
+* ⬇️.eslint.json 파일설정
 ```json
-// .eslintrc.json
 {
   "env": {
     "browser": true,
@@ -75,7 +72,7 @@ npm install -D eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react e
   }
 }
 ```
-* .prettierrc.json 파일설정
+* ⬇️.prettierrc.json 파일설정
 ```json
 {
   "singleQuote": true
